@@ -17,7 +17,7 @@ def main(argv):
     c = parse(argv[3])
 
     for n in xrange(c):
-    	print "%d" % random.randrange(s, e + 1)
+      print "%d" % random.randrange(s, e + 1)
 
 if __name__ == '__main__':
   main(sys.argv)
