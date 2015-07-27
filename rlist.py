@@ -1,12 +1,12 @@
 import sys, random
 
 def parse(v):
-	try:
-		i = int(v)
-	except ValueError:
-		i = 0
+  try:
+    i = int(v)
+  except ValueError:
+    i = 0
 
-	return i
+  return i
 
 def main(argv):
   if len(argv) != 4:
